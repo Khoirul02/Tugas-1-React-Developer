@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+   font-family: 'Quicksand', fantasy;
+   margin: 0;
+   padding: 0;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+header {
+   display: inline;
+}
+
+.jumbotron {
+   font-size: 15px;
+   padding: 120px;
+   background-image: url("../image/bg-1.png");
+   text-align: center;
+   color: white;
+}
+.group {
+   display: flex;
+   justify-content: center;
+}
+
+.grop-sosmed {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.grop-sosmed img {
+   width: 50px;
+   height: 50px;
+   background: #ffff;
+   padding: 5px;
+}
+
+.group img {
+   width: 200px;
+   height: 200px;
+   background: #E6E7ED;
+   border-radius: 100px;
+   background-position:50% 50%;
+   background-repeat:no-repeat;
+}
+
+h2 {
+   color: white;
+   text-align: center;
+   font-weight: bold;
+}
+ 
+h3 {
+  border-radius: 5px;
+  background-color: #dc3c4d;
+  color: white;
+  padding: 15px;
+  margin: 5px;
+}
+
+#content {
+   float: left;
+}
+
+.container {
+   display: flex;
+   box-shadow: 0px 0px 1px 2px #666666;
+   border-radius: 5px;
+   padding: 20px;
+   background-color: #FFb500; 
+   margin: 0 auto;
+   flex-wrap: wrap;
+   height: 100%;         
+}
+
+.box {
+   flex-grow: 1;
+   box-shadow: 0px 0px 1px 1px #ffffff;
+   background-color: #ffffff;
+   margin: 5px;
+   border: 1px solid #FFb500;
+   border-radius: 10px;
+}
+
+.box-tentang {
+   width: 24%;
+   box-shadow: 0px 0px 1px 1px #ffffff;
+   background-color: #ffffff;
+   margin: 5px;
+   border: 1px solid #FFb500;
+   border-radius: 10px;
+}
+
+.box-deskripsi {
+   width: 74%;
+   box-shadow: 0px 0px 1px 1px #ffffff;
+   background-color: #ffffff;
+   margin: 5px;
+   border: 1px solid #FFb500;
+   border-radius: 10px;
+}
+
+.container-produk {
+   display: flex;
+   box-shadow: 0px 0px 1px 2px #666666;
+   border-radius: 5px;
+   padding: 20px;
+   background-color: #FFb500; 
+   margin: 0 auto;
+   height: 100%;   
+   margin-top: 10px;
+   flex-wrap: wrap;
+}
+
+.box-produk{
+   flex-grow: 1;
+   box-shadow: 0px 0px 1px 1px #ffffff;
+   background-color: #ffffff;
+   margin: 5px;
+   border: 1px solid #FFb500;
+   border-radius: 10px;
+   flex-wrap: wrap;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+img.center-produk{
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center; 
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+       margin-top: 20px;
+   }
+   .jumbotron {
+      font-size: 15px;
+      padding: 80px;
+      background-image: url("../image/bg-1.png");
+      text-align: center;
+      color: white;
+   }
+   .grop-sosmed img {
+      width: 35px;
+      height: 35px;
+      background: #ffff;
+      padding: 5px;
+   }
+   .box-tentang {
+      flex-grow: 1;
+      box-shadow: 0px 0px 1px 1px #ffffff;
+      background-color: #ffffff;
+      margin: 5px;
+      border: 1px solid #FFb500;
+      border-radius: 10px;
+   }
+   
+   .box-deskripsi {
+      flex-grow: 1;
+      box-shadow: 0px 0px 1px 1px #ffffff;
+      background-color: #ffffff;
+      margin: 5px;
+      border: 1px solid #FFb500;
+      border-radius: 10px;
+   }
+}
+
+th{
+   color: white;
+}
+
+td{
+   color: white;
+}
+
+* {
+   box-sizing: border-box;
+}
+ 
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #FFb500;
+   text-align: center;
+   font-weight: bold;
+}
